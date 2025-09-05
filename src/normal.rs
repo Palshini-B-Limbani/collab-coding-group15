@@ -5,13 +5,10 @@ use unicode_normalization::UnicodeNormalization;
 /// 2. Converting to lowercase
 /// 3. Applying Unicode NFKC normalization
 /// 4. Collapsing multiple spaces into one
-///
 /// # Arguments
 /// * `s` - A string slice to normalize
-///
 /// # Returns
 /// * A new string with normalized text
-///
 /// # Author
 /// Suyash Suryavansh (22BDS058)
 
