@@ -1,3 +1,4 @@
+use unicode_normalization::UnicodeNormalization;
 /// Normalize a string by:
 /// 1. Trimming leading/trailing whitespace
 /// 2. Converting to lowercase
@@ -10,7 +11,7 @@
 /// # Author
 /// Suyash Suryavansh (22BDS058)
 
-use unicode_normalization::UnicodeNormalization;
+
 
 pub fn normalize(s: &str) -> String {
     s.trim()                             // Step 1: Trim
