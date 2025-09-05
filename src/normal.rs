@@ -10,9 +10,6 @@ use unicode_normalization::UnicodeNormalization;
 /// * A new string with normalized text
 /// # Author
 /// Suyash Suryavansh (22BDS058)
-
-
-
 pub fn normalize(s: &str) -> String {
     s.trim()                             // Step 1: Trim
      .to_lowercase()                     // Step 2: Lowercase
