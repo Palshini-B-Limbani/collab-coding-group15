@@ -1,8 +1,11 @@
-use collab_utils::{math, strings, validate, convert};
-fn main(){
-    println!("collab project");
-    println!("Factorial of 5: {}", math::factorial(5));
-    println!("Is 'Never odd or even' palindrome? {}", strings::is_palindrome("Never odd or even"));
+mod math;
+mod strings;
+mod validate;
+mod convert;
+fn main() {
+    println!("Collab Project group 15");
+    println!("Factorial of 5 = {}", math::factorial(5));
+    println!("Is 'racecar' palindrome? {}", strings::is_palindrome("racecar"));
     println!("Valid email 'alice@example.com'? {}", validate::is_valid_email("alice@example.com"));
-    println!("Lowercase of 'Å' = {}", convert::to_lowercase_char('Å'));
+    println!("Lowercase of 'HELLO' = {}", convert::to_lowercase("HELLO"));
 }
