@@ -1,4 +1,4 @@
-use collab-coding-group15::numeric
+use collab_coding_group15::numeric
 
 #[test]
 fn test_is_numeric() {
@@ -6,3 +6,4 @@ fn test_is_numeric() {
     assert!(!strings::is_numeric("12a45"));
     assert!(!strings::is_numeric(""));
 }
+
