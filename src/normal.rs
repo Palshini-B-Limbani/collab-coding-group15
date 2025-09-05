@@ -1,5 +1,3 @@
-use unicode_normalization::UnicodeNormalization;
-
 /// Normalize a string by:
 /// 1. Trimming leading/trailing whitespace
 /// 2. Converting to lowercase
@@ -12,22 +10,15 @@ use unicode_normalization::UnicodeNormalization;
 /// # Author
 /// Suyash Suryavansh (22BDS058)
 
+use unicode_normalization::UnicodeNormalization;
 
 pub fn normalize(s: &str) -> String {
-    // Step 1: Trim leading and trailing whitespace
-    let trimmed = s.trim();
-
-    // Step 2: Convert to lowercase
-    let lowercased = trimmed.to_lowercase();
-
-    // Step 3: Normalize Unicode (NFKC form = compatibility + canonical)
-    let unicode_normalized: String = lowercased.nfkc().collect();
-
-    // Step 4: Collapse multiple spaces into one
-    let collapsed = unicode_normalized
-        .split_whitespace()
-        .collect::<Vec<_>>()
-        .join(" ");
-
-    collapsed
+    s.trim()                             // Step 1: Trim
+     .to_lowercase()                     // Step 2: Lowercase
+     .nfkc()                             // Step 3: Unicode NFKC
+     .collect::<String>()
+     .split_whitespace()                 // Step 4: Collapse spaces
+     .collect::<Vec<_>>()
+     .join(" ")
 }
+
