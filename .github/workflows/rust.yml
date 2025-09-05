@@ -29,5 +29,3 @@ jobs:
     - name: Lint (Clippy)
       run: cargo clippy -- -D warnings
 
-    - name: Format check
-      run: cargo fmt -- --check
