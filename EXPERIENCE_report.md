@@ -11,6 +11,6 @@ contibution: created Repo "collab-coding-group15", added all the members to the 
 
 5.Suyash Suryavansh :Role: Individual Contributor(IC):  Made the normalize-function-branch from forked branch > added the normalze function in the src/normal.rs. > added tests/normal_test.rs > pushed changes to branch > submitted pull request > faced an error in Cargo.toml file in peer review....added dependency then pushed changes again > finally merged PR with main branch 
 
-6.Thirumala Teena: 
+6.Thirumala Teena: Role: Individual Contributor(IC): implemented the remove_vowels string utility with full documentation and unit tests, integrated it into the driver alongside other modules, and actively reviewed teammates’ code. Identified a missing unicode-normalization dependency during PR review, resolved merge conflicts in lib.rs and main.rs
 
 7.Varang Pratap Singh
