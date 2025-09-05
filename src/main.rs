@@ -1,5 +1,5 @@
 
-use collab_coding_group15::{ normal, numeric, palindrome, reverse, remove_vowels};
+use collab_coding_group15::{ normal, numeric, palindrome, reverse, remove_vowels, word_count};
 
 fn main() {
     println!("--- Collab Project Driver ---");
@@ -15,5 +15,7 @@ fn main() {
     println!("Normalized '  HELLO  ' = {}", normal::normalize("  HELLO  "));
     //remove_vowels
     println!("Remove vowels from 'Hello World' = {}", remove_vowels::remove_vowels("Hello World"));
+    //count words
+     println!("Word count of 'Rust is fast and safe' = {}", word_count::word_count("Rust is fast and safe"));
 } 
 
