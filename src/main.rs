@@ -13,5 +13,7 @@ fn main() {
     println!("Is '12345' numeric? {}", numeric::is_numeric("12345"));
     //normal
     println!("Normalized '  HELLO  ' = {}", normal::normalize("  HELLO  "));
+    //remove_vowels
+    println!("Remove vowels from 'Hello World' = {}", remove_vowels::remove_vowels("Hello World"));
 } 
 

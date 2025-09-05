@@ -1,6 +1,5 @@
-#[cfg(test)]
-mod tests {
-    use super::super::strings::remove_vowels;
+
+    use collab_coding_group15::remove_vowels::remove_vowels;
 
     #[test]
     fn test_remove_vowels() {
@@ -9,4 +8,4 @@ mod tests {
         assert_eq!(remove_vowels("Python Programming"), "Pythn Prgrmmng");
         assert_eq!(remove_vowels(""), "");
     }
-}
+
