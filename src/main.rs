@@ -1,8 +1,15 @@
-use collab_utils::{math, strings, validate, convert};
-fn main(){
-    println!("collab project");
-    println!("Factorial of 5: {}", math::factorial(5));
-    println!("Is 'Never odd or even' palindrome? {}", strings::is_palindrome("Never odd or even"));
-    println!("Valid email 'alice@example.com'? {}", validate::is_valid_email("alice@example.com"));
-    println!("Lowercase of 'Å' = {}", convert::to_lowercase_char('Å'));
+use collab_coding_group15::{ normal, numeric, palindrome, reverse};
+
+fn main() {
+    println!("--- Collab Project Driver ---");
+
+    // Strings
+    //palindrome
+    println!("Is 'Never odd or even' palindrome? {}", palindrome::is_palindrome("Never odd or even"));
+    //reverse
+    println!("Reverse of 'Rust' = {}", reverse::reverse_string("Rust"));
+    //numeric
+    println!("Is '12345' numeric? {}", numeric::is_numeric("12345"));
+    //normal
+    println!("Normalized '  HELLO  ' = {}", normal::normalize("  HELLO  "));
 }

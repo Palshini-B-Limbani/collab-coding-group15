@@ -1,4 +1,4 @@
-pub mod math;
-pub mod strings;
-pub mod validate;
-pub mod convert;
+pub mod normal;
+pub mod numeric;
+pub mod reverse;
+pub mod palindrome;
