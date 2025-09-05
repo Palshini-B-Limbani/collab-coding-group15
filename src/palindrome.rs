@@ -1,3 +1,5 @@
+///palindrome function for the string utility
+///author: Hitesh
 pub fn is_palindrome(s: &str)->bool {
     let cleaned: String = s.chars()
         .filter(|c| c.is_alphanumeric())
