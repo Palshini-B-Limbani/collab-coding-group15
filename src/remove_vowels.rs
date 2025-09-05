@@ -1,5 +1,5 @@
 /// Removes all vowels from the input string.
-/// Author: Your Name
+/// Author: Teena
 pub fn remove_vowels(s: &str) -> String {
     let vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
     s.chars()
