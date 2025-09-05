@@ -1,5 +1,5 @@
 /// String utilities module
-/// Author: Hitesh
+/// Author: Varang
 
 /// Check if a string is numeric
 pub fn is_numeric(s: &str)->bool {
