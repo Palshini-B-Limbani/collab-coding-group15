@@ -4,7 +4,7 @@ Roles and contribution:
 
 2.Bhabad Ganesh
 
-3.Hitesh Kumar
+3.Hitesh Kumar : Role: Individual contributor(IC): Created the driver code for the project, implemented the palindrome function, resolved all pull request (PR) conflicts including merge conflicts and rebasing issues, implemented GitHub Actions for CI/CD, reviewed all teammates' code for linting errors and improper module usage, and finalized the project build.
 
 4.Palshini Limbani: Role: Admin
 contibution: created Repo "collab-coding-group15", added all the members to the group then added README.md, Experience.md and CONTRIBUTING.md files content and reviewed PR's and added comments and merged it, helped in documentation with other members and did driver integration.
