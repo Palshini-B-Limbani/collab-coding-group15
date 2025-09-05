@@ -1,3 +1,5 @@
+
+pub mod remove_vowels;
 pub mod normal;
 pub mod numeric;
 pub mod reverse;

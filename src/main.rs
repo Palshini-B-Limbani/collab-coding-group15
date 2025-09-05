@@ -1,4 +1,5 @@
-use collab_coding_group15::{ normal, numeric, palindrome, reverse};
+
+use collab_coding_group15::{ normal, numeric, palindrome, reverse, remove_vowels};
 
 fn main() {
     println!("--- Collab Project Driver ---");
@@ -13,3 +14,4 @@ fn main() {
     //normal
     println!("Normalized '  HELLO  ' = {}", normal::normalize("  HELLO  "));
 } 
+
