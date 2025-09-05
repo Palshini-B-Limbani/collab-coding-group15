@@ -12,4 +12,4 @@ fn main() {
     println!("Is '12345' numeric? {}", numeric::is_numeric("12345"));
     //normal
     println!("Normalized '  HELLO  ' = {}", normal::normalize("  HELLO  "));
-}
+} 
